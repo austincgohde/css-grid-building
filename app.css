@@ -1,0 +1,75 @@
+.row:after,
+.short-row:after {
+  clear: both;
+  content: " ";
+  display: table;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 960px;
+  margin: 0px auto;
+  padding: 20px 0;
+}
+
+.row {
+  border: 1px dotted #000;
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+}
+
+.short-row {
+  border: 1px dotted #000;
+  width: 720px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.col-1:after,
+.col-4:after,
+.col-6:after,
+.col-8:after {
+  clear: both;
+  content: " ";
+  display: table;
+  box-sizing: border-box;
+}
+
+.col-1,
+.col-4,
+.col-6,
+.col-8 {
+  border: 1px solid #000;
+}
+
+.col-1 {
+  display: inline-block;
+  margin: 0px .5px;
+}
+
+.col-4 {
+  float: left;
+  width: 240px;
+  height: 160px;
+  margin: 5px;
+}
+
+.col-8 {
+  float: left;
+  width: 720px;
+  height: 320px;
+  margin: 5px;
+}
+
+.col-6 {
+  display: inline-block;
+  width: 480px;
+  height: 160px;
+  margin: 5px;
+}
+/*Your code here*/
+h1 {
+  font-weight: bold;
+  font-size: 20px;
+}
